@@ -1,9 +1,9 @@
 #include <iostream>
-#include <fstream>
-#include <sstream>
 #include <string>
-#include <cstring>
+
 using namespace std;
+
+
 bool isPalindrome(string s, char c)
 {
     int len = s.length();
