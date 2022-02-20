@@ -3,13 +3,6 @@
 #include <sstream>
 #include <string>
 using namespace std;
-void printPrice(int arr[][2], int size)
-{
-    for (int i = 0; i < size; i++)
-    {
-        cout << arr[i][0] << " " << arr[i][1] << endl;
-    }
-}
 void calMoney(string priceFile, string buyFile)
 {
     fstream price(priceFile, ios_base::in);
