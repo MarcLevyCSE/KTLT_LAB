@@ -1,0 +1,36 @@
+[Q2.3]
+[Tiếng Việt]
+Viết chương trình đọc vào chuỗi s từ bàn phím, tìm và trả về chuỗi con có tính chất đối xứng dài nhất có trong s.
+Đầu vào:
+    Chuỗi s.
+Đầu ra:
+    Chuỗi con có tính chất đối xứng dài nhất có trong s. 
+    Trong trường hợp có nhiều chuỗi con dài nhất có cùng độ dài, trả về chuỗi con có vị trí bắt đầu nhỏ nhất.
+    For example:
+
+    Test	Input	Result
+    1       babad   bab 
+
+Q[2.2]
+[Tiếng Việt ]
+
+Viết chương trình đọc vào chuỗi s từ bàn phím, 
+tìm và trả về độ dài của chuỗi con dài nhất không có ký tự nào được lặp lại có trong s.
+Đầu vào:
+    Chuỗi s.
+Đầu ra:
+    Độ dài của chuỗi con dài nhất không có ký tự nào được lặp lại có trong s.
+    For example:
+    Test	Input	    Result
+    1       abcabcbb    3
+
+Mô tả tiếng Việt:
+
+Cho mảng 2 chiều chứa các số nguyên, kích thước M x N.
+
+Hiện thực hàm:
+
+int specialCells(int arr[][1000], int row, int col);
+Trong đó arr, row và col lần lượt là mảng 2 chiều, số hàng và số cột của mảng. Một ô trong mảng được gọi là HN3 nếu tổng tất cả các phần tử trong hàng chứa ô đó và tổng tất cả các phần tử trong cột chứa ô đó đều là số nguyên tố. Tìm số ô HN3 trong mảng.
+
+Ghi chú: (Các) thư viện iostream, vector và string đã được khai báo, và namespace std đã được sử dụng.        
